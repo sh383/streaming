@@ -2,6 +2,7 @@ const HOME = "/";
 const LOGIN = "/login";
 const JOIN = "/join";
 const UPLOAD = "/upload";
+const SEARCH = "/search";
 
 const VIDEOS = "/videos";
 const VIDEO_DETAIL = ":id"; // 나중에 함수로
@@ -17,6 +18,7 @@ const routes = {
   login: LOGIN,
   join: JOIN,
   upload: UPLOAD,
+  search: SEARCH,
 
   videos: VIDEOS,
   videoDetail: VIDEO_DETAIL,

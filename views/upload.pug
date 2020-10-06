@@ -1,0 +1,7 @@
+block content
+    .form__container
+        form(action=routes.upload, method='post', enctype="multipart/form-data")
+            input(type='file', name='videoFile', value='Choose File')
+            input(type='text', placeholder='title', value='title', name='title')
+            input(type='text', placeholder='description', value='description', name='description')
+            input(type='submit', value="Let's upload")
